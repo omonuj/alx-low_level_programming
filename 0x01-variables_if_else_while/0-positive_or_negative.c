@@ -3,17 +3,24 @@
 #include <stdio.h>
 
 /**
- * main - Determines if a number is positive, negative or zero.
- * Return: always o (success)
+ * main - Entry point
+ * Description: this prints out set of string
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* If the number is creater than 0: is positie */
-	/* If the number is 0:is zero */
-	/* If the number is less than 0: is negative */
-	return (0);
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n > 0)
+	printf("%d is positive\n", n);
+else if (n == 0)
+{
+	printf("%d is zero\n", n);
+}
+else
+{
+	printf("%d is negative\n", n);
+}
+return (0);
 }
