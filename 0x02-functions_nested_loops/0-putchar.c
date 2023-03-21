@@ -2,8 +2,10 @@
 
 /**
  * main - print _putchar
+ * is written by me
  * Return: 0 (success)
  */
+
 int main(void)
 {
 	_putchar('_');
