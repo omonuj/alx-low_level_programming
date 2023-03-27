@@ -1,5 +1,5 @@
-i#include "main.h"
-#include <stdio.h>
+#include "main.h"
+
 /**
  * _strlen - returns length of a string
  * @s: parameter
