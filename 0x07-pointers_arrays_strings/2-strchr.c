@@ -6,17 +6,18 @@
  * @c: the char we are lookingfor
  *
  * return: c
+ * @s. Return NULL if the character isn't found
  */
 char *_strchr(char *s, char c)
 {
-	while (*s)
+	while (*s != '\0')
 	{
-		if (*s != c)
-			s++;
-		else
+		if (*s == c)
 			return (s);
+		s++;
 	}
-	if (c == '\0')
+	if (*s == c)
 		return (s);
-	return (NULL);
+	else
+		return (NULL);
 }
