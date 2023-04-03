@@ -1,24 +1,20 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strchr - locates a c character in a string
- *
+ * _strchr - locates char c character in a string
  * @: string to find
- * @c: the char we are lookingfor
- *
+ * @c: the char we are looking for
  * return: c
  * @s. Return NULL if the character isn't found
  */
 char *_strchr(char *s, char c)
 {
-	while (*s != '\0')
+	int i = 0;
+	
+	for (; s[i] >= '\0'; i++)
 	{
-		if (*s == c)
-			return (s);
-		s++;
+		if (s[i] ==  c)
+			return (&s[i]);
 	}
-	if (*s == c)
-		return (s);
-	else
-		return (NULL);
+	return (NULL);
 }
