@@ -4,6 +4,7 @@
  * print_diasums - prints the sum of the diagonals of a square
  * matirx of integers
  * @a: the name of the array
+ * @size: size of the array
  * Return: nothig
  */
 void print_diagsums(int *a, int size)
