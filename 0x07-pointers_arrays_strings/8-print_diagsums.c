@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diasums - prints the sum of the diagonals
+ * print_diasums - prints the sum of the diagonals of a square
+ * matirx of integers
  * @a: the name of the array
  * Return: nothig
  */
@@ -24,5 +25,5 @@ void print_diagsums(int *a, int size)
 		j = j + size - 1;
 	}
 
-	printf("%d\n", sum1, sum2);
+	printf("%d, %d\n", sum1, sum2);
 }
