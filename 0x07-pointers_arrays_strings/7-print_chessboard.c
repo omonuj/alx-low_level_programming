@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_chessboad - prints chessboard
+ * print_chessboard - prints chessboard
  * @a: the row of the array
  * Return: Null
  */
