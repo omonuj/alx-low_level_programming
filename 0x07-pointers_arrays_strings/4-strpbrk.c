@@ -6,7 +6,7 @@
  * Return: Null if set is not matched 
  * or pointer to the mached byte
  */
-char *_strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept);
 {
 	int index;
 
