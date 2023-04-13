@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -5,7 +6,7 @@
  * create_array - creates an arrays of char and initializes it with
  * specific char
  * @size: size of an array
- * @c: the char to initialize the array with 
+ * @c: the char to initialize the array with
  * Return: array of character
  */
 char *create_array(unsigned int size, char c)
