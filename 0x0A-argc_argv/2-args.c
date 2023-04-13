@@ -1,20 +1,19 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - entry point
  * @argc: argument counter
  * @argv: argument vector
- *
- * Retrun: 0
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
-	int c;
+	int index;
 
-	for (c = 0; c < argc; c++)
-		printf("%s\n", argc[c]);
-
+	for (index = 0; index < argc; index++)
+	{
+		printf("%s\n", argv[index]);
+	}
 	return (0);
 }
