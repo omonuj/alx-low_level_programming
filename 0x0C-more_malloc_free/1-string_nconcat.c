@@ -6,8 +6,7 @@
  * string_nconcat - function that concatenates two strings
  * @s1: the first string
  * @s2: the second string
- * Return: the newly allocated space in memory;
- * NULL if the function fails
+ * Return: the newly allocated space in memory
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
