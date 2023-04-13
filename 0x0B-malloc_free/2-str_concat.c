@@ -3,9 +3,11 @@
 
 /**
  * str_concat - concatenates two strings
- * @s1: first string
- * @s2: second string
- * Return: string
+ * @s1:  the first string
+ * @s2: the second string
+ * Return: a pointer that points to a newly allocated space which
+ * contains the contents of @s1,followed by the contents of @s2,
+ * and null terminated. should return NULL on failure
  */
 char *str_concat(char *s1, char *s2)
 {
