@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat -  function that concatenates two strings
+ * string_nconcat - function that concatenates two strings
  * @s1: the first string
  * @s2: the second string
  * Return: the newly allocated space in memory;
