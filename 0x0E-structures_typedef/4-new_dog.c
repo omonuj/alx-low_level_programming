@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
- * _strdub - returns a pointer to a newly allocatedd space in memory,
+ * _strdup - returns a pointer to a newly allocatedd space in memory,
  * which contains a copy of the string given as parmeter.
  * @str: the string to copy
  * Return: a pointer to the duplicated string, NULL if insuffucient
