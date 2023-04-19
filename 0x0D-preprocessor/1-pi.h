@@ -1,4 +1,9 @@
-#ifndef _1_PI_H_
-#define PI
-#define PI (3.14159265359)
+#ifndef PI_H
+#define PI_H
+/**
+ * main - defines a macro names PI
+ * Return: 0
+ */
+
+#define PI 3.14159265359
 #endif
