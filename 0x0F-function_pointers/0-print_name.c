@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * print_name - function that prints a name
+ * print_name - prints a name
  * @name: the name to print
  * @f: the function to send the name to
  * Return: nothing
