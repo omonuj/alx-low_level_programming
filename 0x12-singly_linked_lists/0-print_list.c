@@ -16,7 +16,11 @@ int _strlen(char *s)
 		i++;
 	return (i);
 }
-
+/**
+ * print_list - prints element of a list
+ * @h: list of  strings
+ * Return: nodes
+ */
 size_t print_list(const list_t *h)
 {
 	size_t i = 0;
